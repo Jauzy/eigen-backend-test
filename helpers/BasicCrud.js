@@ -1,6 +1,6 @@
 require('dotenv').config()
-const db = require("../../models");
-const error = require('../errors')
+const db = require("../models");
+const error = require('./errors')
 class BasicCrud {
     constructor(model){
         this.Model = model
